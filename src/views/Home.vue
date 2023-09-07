@@ -1,4 +1,3 @@
-<script setup></script>
 
 <template>
   <main>
@@ -13,10 +12,13 @@
   </main>
 </template>
 
+<script>
+export default {
+
+}
+</script>
+
 <style scoped>
-/* body {
-    height: 100vh;
-} */
 main {
   background-image: url('@/assets/bg.svg');
   display: flex;

@@ -1,8 +1,12 @@
 @import './base.css';
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: Metropolis;
-  src: url('./metropolis/Metropolis-Black.otf');
+  src: url('./metropolis/Metropolis-Bold.otf');
 }
 
 @font-face {
@@ -30,7 +34,7 @@ a,
 
 @media (min-width: 1024px) {
   body {
-    display: flex;
     place-items: center;
+    /* background-color: #FFF; */
   }
 }

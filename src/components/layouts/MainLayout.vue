@@ -3,7 +3,7 @@
     <SideBar/>
     <div class="ml-[250px]">
         <NavBar/>
-       <div class="pl-[40px] pt-[40px]">
+       <div class="px-[20px] pt-[40px]">
         <slot></slot>
        </div>
     </div>

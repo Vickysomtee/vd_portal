@@ -13,5 +13,7 @@ module.exports = {
   },
   rules: {
     'vue/multi-word-component-names': 'off',
+    'vue/return-in-computed-property': 'off',
+    'no-unused-vars': 'off'
   },
 }

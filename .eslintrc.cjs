@@ -11,9 +11,11 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest'
   },
+  files: ['*.html'],
   rules: {
     'vue/multi-word-component-names': 'off',
     'vue/return-in-computed-property': 'off',
+    'vue/comment-directive': 0,
     'no-unused-vars': 'off'
   },
 }

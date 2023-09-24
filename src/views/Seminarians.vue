@@ -1,6 +1,6 @@
 <script setup>
-import MainLayout from '../components/layouts/MainLayout.vue'
-import Pagination from '../components/layouts/Pagination.vue';
+import MainLayout from '../layouts/MainLayout.vue'
+import Pagination from '../layouts/Pagination.vue';
 </script>
 
 <template>

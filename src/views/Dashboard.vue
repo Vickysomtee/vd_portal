@@ -1,6 +1,6 @@
 <script setup>
-import MainLayout from '../components/layouts/MainLayout.vue';
-import Card from '../components/Card.vue';
+import MainLayout from '../layouts/MainLayout.vue';
+import Card from '../components/lib/Card.vue';
 </script>
 
 <template>

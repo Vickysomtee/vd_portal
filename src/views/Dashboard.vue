@@ -28,12 +28,12 @@ const openDetails = (value, type) => {
       <card title="St. John Of The Cross, Ekpoma" :total="stats.stjohnotcekpoma" @view="openDetails('stjohnotcekpoma', 'seminary_alias')"/>
       <card title="St. Peter The Apostle, Eruku" :total="stats.stpetertaeruku" @view="openDetails('stpetertaeruku', 'seminary_alias')"/>
       <card title="All Saints, Uhiele" :total="stats.asuhiele" @view="openDetails('asuhiele', 'seminary_alias')"/>
-      <card title="St Albert the Great, Idowu-Offonran" :total="stats.stalberttgidowu_offonran" @view="openDetails('stalberttgidowu_offonran', 'seminary_alias')"/>
+      <card title="St Albert the Great, Idowu-Offonran" :total="stats.stalberttgidowu_offonran" @view="openDetails('stalberttgidowu-offonran', 'seminary_alias')"/>
     </div>
 
     <h1 class="text-[#061C82] text-[25px] font-bold mt-[60px]">Departments</h1>
     <div class="flex">
-      <card title="Spiritual" :total="stats.spiritual" @view="openDetails('spiritual', 'seminary_level')"/>
+      <card title="Spiritual Year" :total="stats.spiritual" @view="openDetails('spiritual', 'seminary_level')"/>
       <card title="Philosophy" :total="stats.philosophy" @view="openDetails('philosophy', 'seminary_level')"/>
       <card title="Theology" :total="stats.theology" @view="openDetails('theology', 'seminary_level')"/>
     </div>

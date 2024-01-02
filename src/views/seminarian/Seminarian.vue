@@ -2,7 +2,6 @@
 
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router';
-import VueHtml2pdf from 'vue-html2pdf'
 
 import Api from '../../Api';
 import MainLayout from '../../layouts/MainLayout.vue';
